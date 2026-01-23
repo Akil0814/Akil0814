@@ -2,15 +2,14 @@
 
 <!--GitHub Stats -->
 <p align="center">
-  <a href="https://b23.tv/iEJTnPp">
-    <img src="https://github-readme-stats.vercel.app/api?username=Akil0814&show_icons=true&theme=tokyonight" alt="GitHub stats">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Akil0814">
-    <img src="https://github-readme-stats.vercel.app/api?username=Akil0814&show_icons=true&bg_color=ffffff&title_color=4d6284&text_color=5f6b82&icon_color=8a8da9&border_color=e6e6e6" alt="GitHub stats">
-  </a>
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://github-readme-stats.vercel.app/api?username=Akil0814&show_icons=true&theme=tokyonight&hide_border=true">
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://github-readme-stats.vercel.app/api?username=Akil0814&show_icons=true&bg_color=ffffff&title_color=4d6284&text_color=5f6b82&icon_color=8a8da9&hide_border=true">
+  <img alt="GitHub stats"
+    src="https://github-readme-stats.vercel.app/api?username=Akil0814&show_icons=true&theme=tokyonight&hide_border=true">
+</picture>
 </p>
 
 
@@ -23,16 +22,17 @@
 
 <!--most used languages -->
 <p align="center">
-  <a href="https://github.com/Akil0814">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akil0814&layout=compact&theme=tokyonight" alt="Top Languages" height="180">
-  </a>
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Akil0814&layout=compact&theme=tokyonight&hide_border=true">
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Akil0814&layout=compact&bg_color=ffffff&title_color=4d6284&text_color=5f6b82&hide_border=true">
+  <img alt="Top languages"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akil0814&layout=compact&theme=tokyonight&hide_border=true">
+</picture>
 </p>
 
-<p align="center">
-  <a href="https://github.com/Akil0814">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akil0814&layout=compact&bg_color=ffffff&title_color=4d6284&text_color=5f6b82&icon_color=8a8da9&border_color=e6e6e6" alt="Top Languages">
-  </a>
-</p>
+
 
 
 
