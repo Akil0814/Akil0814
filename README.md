@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Akil0814&show_icons=true&theme=tokyonight)](https://b23.tv/iEJTnPp)
+
 <!--
 **Akil0814/Akil0814** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
