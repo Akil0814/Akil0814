@@ -9,3 +9,9 @@
 <p align="center">
   <img src="image/The_Stranger_In_The_Mirror_T.png" alt="KND" width="900">
 </p>
+
+<p align="center">
+  <img src="https://count.getloli.com/get/@Akil0814.github.readme" alt="visitor counter">
+</p>
+
+
