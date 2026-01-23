@@ -6,7 +6,6 @@ This Guy Dont know shit and he is currently learning ...
   body{
     margin:0;
     min-height:100vh;
-    /* 取自图里：雾蓝灰、偏紫灰、暖奶油、淡粉 */
     background: linear-gradient(
       120deg,
       #4d6284 0%,
