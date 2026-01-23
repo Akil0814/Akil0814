@@ -36,14 +36,11 @@
   <source media="(prefers-color-scheme: dark)"
     srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Akil0814&layout=compact&theme=tokyonight&hide_border=true">
   <source media="(prefers-color-scheme: light)"
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Akil0814&layout=compact&bg_color=ffffff&title_color=4d6284&text_color=5f6b82&hide_border=true">
+    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Akil0814&layout=compact&bg_color=ffffff&title_color=4d6284&text_color=5f6b82&border_color=c7cdd6&hide_border=false">
   <img alt="Top languages"
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akil0814&layout=compact&theme=tokyonight&hide_border=true">
 </picture>
 </p>
-
-
-
 
 
 <!--visiter conter -->
