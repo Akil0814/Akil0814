@@ -4,11 +4,11 @@
 <p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)"
-    srcset="https://github-readme-stats.vercel.app/api?username=Akil0814&show_icons=true&theme=tokyonight&hide_border=true">
+    srcset="https://github-readme-stats.vercel.app/api?username=Akil0814&show_icons=true&theme=tokyonight&hide_border=true&card_width=500">
   <source media="(prefers-color-scheme: light)"
-    srcset="https://github-readme-stats.vercel.app/api?username=Akil0814&show_icons=true&bg_color=ffffff&title_color=4d6284&text_color=5f6b82&icon_color=8a8da9&border_color=c7cdd6&hide_border=false">
+    srcset="https://github-readme-stats.vercel.app/api?username=Akil0814&show_icons=true&bg_color=ffffff&title_color=4d6284&text_color=5f6b82&icon_color=8a8da9&border_color=c7cdd6&hide_border=false&card_width=500">
   <img alt="GitHub stats"
-    src="https://github-readme-stats.vercel.app/api?username=Akil0814&show_icons=true&theme=tokyonight&hide_border=true">
+    src="https://github-readme-stats.vercel.app/api?username=Akil0814&show_icons=true&theme=tokyonight&hide_border=true&card_width=500">
 </picture>
 </p>
 
