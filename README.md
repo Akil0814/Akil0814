@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://akil0814.github.io/">
+  <a href="https://akil0814.github.io/WEB_learning/">
     <img src="image/The_Stranger_In_The_Mirror_T.png" alt="KND">
   </a>
 </p>
