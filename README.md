@@ -1,5 +1,6 @@
 ### This guy doesn't know shit and he's currently learning...
 
+<!--GitHub Stats -->
 <p align="center">
   <a href="https://b23.tv/iEJTnPp">
     <img src="https://github-readme-stats.vercel.app/api?username=Akil0814&show_icons=true&theme=tokyonight" alt="GitHub stats">
@@ -7,11 +8,20 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/Akil0814">
+    <img src="https://github-readme-stats.vercel.app/api?username=Akil0814&show_icons=true&bg_color=ffffff&title_color=4d6284&text_color=5f6b82&icon_color=8a8da9&border_color=e6e6e6" alt="GitHub stats">
+  </a>
+</p>
+
+
+<!--image+link -->
+<p align="center">
   <a href="https://akil0814.github.io/WEB_learning/">
     <img src="image/The_Stranger_In_The_Mirror_T.png" alt="KND">
   </a>
 </p>
 
+<!--most used languages -->
 <p align="center">
   <a href="https://github.com/Akil0814">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akil0814&layout=compact&theme=tokyonight" alt="Top Languages" height="180">
@@ -19,9 +29,19 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/Akil0814">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akil0814&layout=compact&bg_color=ffffff&title_color=4d6284&text_color=5f6b82&icon_color=8a8da9&border_color=e6e6e6" alt="Top Languages">
+  </a>
+</p>
+
+
+
+<!--visiter conter -->
+<p align="center">
   <img src="https://count.getloli.com/get/@Akil0814.github.readme" alt="visitor counter">
 </p>
 
+<!--link to web site -->
 <p align="center">
   <a href="https://akil0814.github.io/">
     <img src="https://img.shields.io/badge/Website-akil0814.github.io-4d6284?style=for-the-badge" alt="Website">
