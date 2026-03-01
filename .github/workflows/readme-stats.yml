@@ -1,0 +1,65 @@
+name: Generate README stats cards
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 9 * * *"  # 每天 09:00 UTC 跑一次（你也可以改频率）
+  push:
+    branches: [ main ]
+    paths:
+      - ".github/workflows/readme-stats.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 生成：GitHub Stats（dark）
+      - name: Generate stats (dark)
+        uses: soulteary/github-readme-stats-action@v1.0.0
+        with:
+          card: stats
+          options: "username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&card_width=500"
+          path: "generated/stats-dark.svg"
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 生成：GitHub Stats（light）
+      - name: Generate stats (light)
+        uses: soulteary/github-readme-stats-action@v1.0.0
+        with:
+          card: stats
+          options: "username=${{ github.repository_owner }}&show_icons=true&bg_color=ffffff&title_color=4d6284&text_color=5f6b82&icon_color=8a8da9&border_color=c7cdd6&hide_border=false&card_width=500"
+          path: "generated/stats-light.svg"
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 生成：Top Languages（dark）
+      - name: Generate top langs (dark)
+        uses: soulteary/github-readme-stats-action@v1.0.0
+        with:
+          card: top-langs
+          options: "username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&hide_border=true&card_width=500"
+          path: "generated/top-langs-dark.svg"
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 生成：Top Languages（light）
+      - name: Generate top langs (light)
+        uses: soulteary/github-readme-stats-action@v1.0.0
+        with:
+          card: top-langs
+          options: "username=${{ github.repository_owner }}&layout=compact&bg_color=ffffff&title_color=4d6284&text_color=5f6b82&border_color=c7cdd6&hide_border=false&card_width=500"
+          path: "generated/top-langs-light.svg"
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit generated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add generated/*.svg
+          git commit -m "chore: update readme stats cards" || echo "No changes to commit"
+          git push
