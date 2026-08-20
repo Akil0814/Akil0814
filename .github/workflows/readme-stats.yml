@@ -15,6 +15,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
       - name: Checkout
@@ -27,7 +28,7 @@ jobs:
           card: stats
           options: "username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&card_width=500"
           path: "generated/stats-dark.svg"
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.README_STATS_TOKEN }}
 
       # 生成：GitHub Stats（light）
       - name: Generate stats (light)
@@ -36,7 +37,7 @@ jobs:
           card: stats
           options: "username=${{ github.repository_owner }}&show_icons=true&bg_color=ffffff&title_color=4d6284&text_color=5f6b82&icon_color=8a8da9&border_color=c7cdd6&hide_border=false&card_width=500"
           path: "generated/stats-light.svg"
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.README_STATS_TOKEN }}
 
       # 生成：Top Languages（dark）
       - name: Generate top langs (dark)
@@ -55,6 +56,22 @@ jobs:
           options: "username=${{ github.repository_owner }}&layout=compact&bg_color=ffffff&title_color=4d6284&text_color=5f6b82&border_color=c7cdd6&hide_border=false&card_width=500"
           path: "generated/top-langs-light.svg"
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Validate generated cards
+        shell: bash
+        run: |
+          set -euo pipefail
+          for card in generated/*.svg; do
+            if ! grep -qi '<svg' "$card"; then
+              echo "::error file=$card::Generated file is not an SVG"
+              exit 1
+            fi
+
+            if grep -qiE 'Something went wrong|Resource not accessible|FORBIDDEN' "$card"; then
+              echo "::error file=$card::GitHub stats generation returned an error card"
+              exit 1
+            fi
+          done
 
       - name: Commit generated cards
         run: |
