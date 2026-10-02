@@ -54,7 +54,7 @@ I enjoy game programming, real-time rendering, engine development, and understan
 
 `C++17` · `Software Rendering` · `Rasterization`
 
-**🟡Status:** Functional · Performance optimization planned
+**🚧Status:** Functional · Performance optimization planned
 
 ---
 
@@ -64,7 +64,7 @@ I enjoy game programming, real-time rendering, engine development, and understan
 
 `C++23` · `ElysiaEngine` · `Game Development`
 
-**🚧Status:** In Development · Gameplay & systems development
+**⚙️Status:** In Development · Gameplay & systems development
 
 ---
 
