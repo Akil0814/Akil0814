@@ -100,6 +100,7 @@ I enjoy game programming, real-time rendering, engine development, and understan
 
 <br>
 
+<!--
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
@@ -111,9 +112,8 @@ I enjoy game programming, real-time rendering, engine development, and understan
     src="https://raw.githubusercontent.com/Akil0814/Akil0814/main/generated/top-langs-dark.svg"
     alt="Top Languages">
 </picture>
-
-
 <br>
+-->
 
 <p align="center">
   <a href="https://bangumi.tv/user/akil0814">
